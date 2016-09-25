@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>画像をじわじわ表示する</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/narrowBandImage.css" rel="stylesheet">
+    </head>
+    <body>
+        画像をじわじわ表示します。ナローバンドの如く。
+        <p class="loading" style="height:960px;">
+            <img src="image/sample.jpg">
+        </p>
+
+        <h3>使い方</h3>
+        <h4>1. narrowBandImage.cssを読み込む</h4>
+        &lt;link type="text/css" href="css/narrowBandImage.css" rel="stylesheet"&gt;
+        <h4>2. jQueryを読み込む</h4>
+        &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;
+        <h4>3. narrowBandImage.jsを読み込む</h4>
+        &lt;script src="js/narrowBandImage.js"&gt;&lt;/script&gt;
+
+        <h4>4. ゆっくり表示させたい画像をこんな感じで設定(pタグにloadingクラスを付けて、その中にimgタグをセット)</h4>
+        &lt;p class="loading"&gt;<br>
+            &lt;img src="image/test.bmp"&gt;<br>
+        &lt;/p&gt;
+
+        <h4>5. ブラウザでページを表示すると、画像がじわじわ表示されるので、PCの前で小躍りする</h4>
+
+        <!-- とりあえずjquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <!-- 画像をゆっくり表示させるためのscript -->
+        <script src="js/narrowBandImage.js"></script>
+    </body>
+</html>
