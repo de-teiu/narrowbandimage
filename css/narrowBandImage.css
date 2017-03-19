@@ -1,9 +1,10 @@
-p.loading {
-    /* 要素の配置方法をあらかじめ指定する */
-    position: relative;
+.narrow-band-image{
+  position:relative;
+  /* ページ読み込み時は非表示にしておく */
+  display:none;
 }
 
-p.loading img {
-    /* 画像の配置絶対位置にしないとclipスタイルが適用されないため、以下のスタイルを適用 */
-    position: absolute;
+.narrow-band-image img  {
+  /* 画像の配置絶対位置にしないとclipスタイルが適用されないため、以下のスタイルを適用 */
+  position: absolute;
 }
