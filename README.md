@@ -1,6 +1,7 @@
 # narrowbandimage
 
 画像をじわじわ表示するjavascriptライブラリです。
-index.htmlを開けば全てを察すると思います。
-
-用途は思いつきませんが、ご自由にお使いください。
+index.htmlを開けば全てを察すると思います。  
+  
+用途は思いつきませんが、ご自由にお使いください。  
+[デモはこちら]: http://uselesscode.net/narrow-band-image/
